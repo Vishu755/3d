@@ -121,6 +121,7 @@ if (autoRotate) {
 }
 
 // add background music
+    /*
 if (bgMusicURL) {
   document.getElementById('music-container').innerHTML += `
 <audio src="${bgMusicURL}" ${bgMusicControls? 'controls': ''} autoplay loop>    
@@ -128,7 +129,7 @@ if (bgMusicURL) {
 </audio>
 `;
 }
-
+*/
 // setup events
 document.onpointerdown = function (e) {
   clearInterval(odrag.timer);
